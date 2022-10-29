@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Walmart</string>
+    <string name="sign_in_to_your_account_tv_text">Sign in to your account</string>
+    <string name="email_address_required_et_hint_text">Email address (required)</string>
+    <string name="password_required_et_hint_text">Password (required)</string>
+    <string name="forgot_password_tv_text">Forgot password?</string>
+    <string name="sign_in_btn_text">Sign In</string>
+    <string name="don_t_have_an_account_tv_text">Don\'t have an account?</string>
+    <string name="create_a_new_account_btn_text">Create a new account</string>
+    <string name="shop_by_categories_tv_text">Shop by Categories</string>
+    <string name="electronics_tv_text">Electronics</string>
+    <string name="clothing_tv_text">Clothing</string>
+    <string name="beauty_tv_text">Beauty</string>
+    <string name="food_tv_text">Food</string>
+    <string name="welcome_message">Welcome %1$s</string>
+    <string name="sign_up_to_your_account_tv_text">Create your account</string>
+    <string name="first_name_register_et_hint_text">First name*</string>
+    <string name="last_name_register_et_hint_text">Last name*</string>
+    <string name="email_address_register_et_hint_text">Email address*</string>
+    <string name="password_register_et_hint_text">Password*</string>
+    <string name="required_field_tv_text">* required field</string>
+    <string name="register_btn_text">Create Account</string>
 </resources>
