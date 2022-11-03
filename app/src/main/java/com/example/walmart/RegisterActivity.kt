@@ -3,9 +3,9 @@ package com.example.walmart
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Patterns
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.walmart.models.User
+import com.example.walmart.utils.isValidEmail
 import kotlinx.android.synthetic.main.activity_register.*
 import kotlinx.android.synthetic.main.activity_register.emailET
 import kotlinx.android.synthetic.main.activity_register.passwordET
@@ -40,7 +40,7 @@ class RegisterActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please enter your last name!", Toast.LENGTH_SHORT).show()
                 null
             }
-            !isValidEmail(emailET.text.toString())-> {
+            !emailET.text.toString().isValidEmail()-> {
                 Toast.makeText(this, "Please enter your valid email!", Toast.LENGTH_SHORT).show()
                 null
             }

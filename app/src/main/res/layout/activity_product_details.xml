@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productdetails.ProductDetailsActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+    
+    <ImageView
+        android:id="@+id/productIV"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/product_details_iv_desc" />
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/colorTV"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/itemIdTV"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/itemDescTV"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -20,4 +20,10 @@
     <string name="password_register_et_hint_text">Password*</string>
     <string name="required_field_tv_text">* required field</string>
     <string name="register_btn_text">Create Account</string>
+    <string name="item_image_desc">item image</string>
+    <string name="product_price_text">Price: %1$s</string>
+    <string name="product_color_text">Color: %1$s</string>
+    <string name="product_id_text">Walmart #: %1$s</string>
+    <string name="product_details_desc">Product Description:\n</string>
+    <string name="product_details_iv_desc">Product Details Desc</string>
 </resources>

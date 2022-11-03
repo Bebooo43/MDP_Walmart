@@ -3,9 +3,12 @@ package com.example.walmart
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.os.Bundle
+import android.view.inputmethod.EditorInfo
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import com.example.walmart.models.User
+import com.example.walmart.utils.isValidEmail
 import kotlinx.android.synthetic.main.activity_main.*
 
 const val USER_EXTRA = "user"
@@ -17,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         User("user2", "user2Last", "username2@gmail.com", "password2"),
         User("user3", "user3Last", "username3@gmail.com", "password3"),
         User("user4", "user4Last", "username4@gmail.com", "password4"),
-        User("user5", "user5Last", "username5@gmail.com", "password5")
+        User("user", "last", "user@gmail.com", "pass")
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,13 +37,23 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        passwordET.setOnEditorActionListener { v, actionId, event ->
+            when (actionId) {
+                EditorInfo.IME_ACTION_SEND -> {
+                    signInBtn.performClick()
+                    true
+                }
+                else -> false
+            }
+        }
+
         signUpBtn.setOnClickListener {
             openRegisterActivity()
         }
 
         forgotPasswordBtn.setOnClickListener {
             emailET.text?.toString()?.also { email ->
-                if(isValidEmail(email)) {
+                if(email.isValidEmail()) {
                     getRegisteredUser(email)?.also { user ->
                         sendEmail(
                             arrayListOf(email),
