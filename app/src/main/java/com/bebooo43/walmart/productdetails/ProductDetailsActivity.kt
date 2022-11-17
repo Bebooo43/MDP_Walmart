@@ -1,13 +1,13 @@
-package com.example.walmart.productdetails
+package com.bebooo43.walmart.productdetails
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.SpannableStringBuilder
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.bold
-import com.example.walmart.R
-import com.example.walmart.databinding.ActivityProductDetailsBinding
-import com.example.walmart.models.Product
-import com.example.walmart.utils.getDrawableIdByName
+import com.bebooo43.walmart.R
+import com.bebooo43.walmart.databinding.ActivityProductDetailsBinding
+import com.bebooo43.walmart.models.Product
+import com.bebooo43.walmart.utils.getDrawableIdByName
 
 const val PRODUCT_EXTRA = "product_extra"
 

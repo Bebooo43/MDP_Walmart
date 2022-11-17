@@ -1,11 +1,10 @@
-package com.example.walmart.productsactivity
+package com.bebooo43.walmart.productsactivity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.walmart.R
-import com.example.walmart.databinding.ActivityProductsListBinding
-import com.example.walmart.models.Product
+import com.bebooo43.walmart.databinding.ActivityProductsListBinding
+import com.bebooo43.walmart.models.Product
 
 class ProductsListActivity : AppCompatActivity() {
 

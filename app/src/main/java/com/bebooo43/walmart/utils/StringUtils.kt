@@ -1,4 +1,4 @@
-package com.example.walmart.utils
+package com.bebooo43.walmart.utils
 
 import android.content.Context
 import android.util.Patterns

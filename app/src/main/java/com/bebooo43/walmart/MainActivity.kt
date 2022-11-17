@@ -1,4 +1,4 @@
-package com.example.walmart
+package com.bebooo43.walmart
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -7,8 +7,8 @@ import android.view.inputmethod.EditorInfo
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.example.walmart.models.User
-import com.example.walmart.utils.isValidEmail
+import com.bebooo43.walmart.models.User
+import com.bebooo43.walmart.utils.isValidEmail
 import kotlinx.android.synthetic.main.activity_main.*
 
 const val USER_EXTRA = "user"

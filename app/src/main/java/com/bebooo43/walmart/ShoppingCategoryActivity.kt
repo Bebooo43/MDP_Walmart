@@ -1,11 +1,11 @@
-package com.example.walmart
+package com.bebooo43.walmart
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.walmart.models.User
-import com.example.walmart.productsactivity.ProductsListActivity
+import androidx.appcompat.app.AppCompatActivity
+import com.bebooo43.walmart.models.User
+import com.bebooo43.walmart.productsactivity.ProductsListActivity
 import kotlinx.android.synthetic.main.activity_shopping_category.*
 
 class ShoppingCategoryActivity : AppCompatActivity() {

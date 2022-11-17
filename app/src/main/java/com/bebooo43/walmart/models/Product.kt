@@ -1,4 +1,4 @@
-package com.example.walmart.models
+package com.bebooo43.walmart.models
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

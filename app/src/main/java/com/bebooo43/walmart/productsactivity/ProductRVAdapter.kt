@@ -1,4 +1,4 @@
-package com.example.walmart.productsactivity
+package com.bebooo43.walmart.productsactivity
 
 import android.content.Context
 import android.content.Intent
@@ -6,12 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.walmart.R
-import com.example.walmart.databinding.ListItemBinding
-import com.example.walmart.models.Product
-import com.example.walmart.productdetails.PRODUCT_EXTRA
-import com.example.walmart.productdetails.ProductDetailsActivity
-import com.example.walmart.utils.getDrawableIdByName
+import com.bebooo43.walmart.R
+import com.bebooo43.walmart.databinding.ListItemBinding
+import com.bebooo43.walmart.models.Product
+import com.bebooo43.walmart.productdetails.PRODUCT_EXTRA
+import com.bebooo43.walmart.productdetails.ProductDetailsActivity
+import com.bebooo43.walmart.utils.getDrawableIdByName
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class ProductRVAdapter(private val list: ArrayList<Product>): RecyclerView.Adapter<ProductRVAdapter.ProductViewHolder>() {
